@@ -2,7 +2,7 @@ package sendmail
 
 // @author  Mikhail Kirillov <mikkirillov@yandex.ru>
 // @version 1.000
-// @date    2019-07-08
+// @date    2019-07-09
 
 import (
 	"crypto/md5"
@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/belfinor/Helium/log"
-	"github.com/belfinor/Helium/pack"
+	"github.com/belfinor/log"
+	"github.com/belfinor/pack"
 )
 
 var Util string = "/usr/sbin/sendmail"
